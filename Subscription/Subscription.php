@@ -81,8 +81,8 @@ class Subscription
                     'payer_selected' => 'PAYPAL',
                     'payee_preferred' => 'IMMEDIATE_PAYMENT_REQUIRED'
                 ],
-                'return_url' => 'https://parentsolo.backndev.fr/paypal/accept/sub',
-                'cancel_url' => 'https://parentsolo.backndev.fr/paypal/cancel/sub'
+                'return_url' => 'https://parentsolo.ch/paypal/accept/sub',
+                'cancel_url' => 'https://parentsolo.ch/paypal/cancel/sub'
             ]
         ];
         return $payload;
