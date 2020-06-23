@@ -1,7 +1,7 @@
 <?php
 
 
-namespace backndev\paypal\Subscription;
+namespace SwissthemeSarl\paypal\Subscription;
 
 use App\Entity\Items;
 
