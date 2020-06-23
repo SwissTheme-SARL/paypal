@@ -1,10 +1,7 @@
 <?php
 
 
-namespace backndev\paypal\Order;
-
-
-use Symfony\Component\HttpClient\HttpClient;
+namespace SwissthemeSarl\paypal\Order;
 
 class Order
 {

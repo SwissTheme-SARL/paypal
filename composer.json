@@ -1,5 +1,5 @@
 {
-    "name": "backndev/paypal",
+    "name": "swisstheme-sarl/paypal",
     "description": "paypal module for symfony",
     "type": "symfony-bundle",
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "backndev\\paypal\\": ""
+            "SwissthemeSarl\\paypal\\": ""
         }
     },
     "extra": {

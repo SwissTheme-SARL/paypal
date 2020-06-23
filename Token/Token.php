@@ -1,7 +1,7 @@
 <?php
 
 
-namespace backndev\paypal\Token;
+namespace SwissthemeSarl\paypal\Token;
 
 
 use Symfony\Component\HttpClient\HttpClient;

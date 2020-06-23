@@ -1,14 +1,14 @@
 <?php
 
 
-namespace backndev\paypal;
+namespace SwissthemeSarl\paypal;
 
 
 use App\Entity\Items;
 use App\Entity\User;
-use backndev\paypal\Order\Order;
-use backndev\paypal\Subscription\Subscription;
-use backndev\paypal\Token\Token;
+use SwissthemeSarl\paypal\Order\Order;
+use SwissthemeSarl\paypal\Subscription\Subscription;
+use SwissthemeSarl\paypal\Token\Token;
 use Symfony\Component\HttpClient\HttpClient;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
