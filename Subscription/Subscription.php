@@ -47,14 +47,14 @@ class Subscription
             'plan_id' => $plan,
             //'start_time' => new \DateTime('now'),
             'quantity' => 1,
-            'shipping_amount' => [
-                'currency_code' => 'CHF',
-                'value' => $item->getPrice(),
-            ],
+            // 'shipping_amount' => [
+            //     'currency_code' => 'CHF',
+            //     'value' => $item->getPrice(),
+            // ],
             'email_address' => $user->getEmail(),
-            'shipping_address' => [
-                'full_name' => 'parentsolo',
-            ],
+            // 'shipping_address' => [
+            //     'full_name' => 'parentsolo',
+            // ],
             'application_context' => [
                 'brand_name' => 'parentsolo',
                 'user_action' => 'SUBSCRIBE_NOW',
